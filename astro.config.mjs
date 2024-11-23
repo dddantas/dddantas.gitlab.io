@@ -6,6 +6,8 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://example.com',
-	integrations: [mdx(), sitemap()],
+  site: 'https://dddantas.github.io',
+  base: 'blog',
+  trailingSlash: 'never',
+  integrations: [mdx(), sitemap()],
 });
